@@ -16,7 +16,7 @@ class Sorter
 	 */
 	public function sort(array $animals): array
 	{
-		usort($animals, function (AnimalInterface $a, AnimalInterface $b)
+		usort($animals, function (AnimalInterface $a, AnimalInterface $b): int
 			{
 				if ($a->getNumberOfLegs() == $b->getNumberOfLegs())
 				{

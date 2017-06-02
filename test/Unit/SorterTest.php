@@ -3,6 +3,7 @@
 namespace Ekkinox\KataBooks\Test\Unit;
 
 use Ekkinox\KataAnimals\Animals\Animal;
+use Ekkinox\KataAnimals\Animals\AnimalInterface;
 use Ekkinox\KataAnimals\Sorter;
 use PHPUnit\Framework\TestCase;
 
@@ -57,7 +58,7 @@ class StubTest extends TestCase
 	}
 
 	/**
-	 * @return Animal[]
+	 * @return AnimalInterface[]
 	 */
     private function generateAnimals(): array
     {
