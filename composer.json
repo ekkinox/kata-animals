@@ -1,0 +1,29 @@
+{
+    "name": "ekkinox/kata-animals",
+    "description": "Code kata - Animals Sorting",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan VUILLEMIN",
+            "email": "ekkinox@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ekkinox\\KataAnimals\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ekkinox\\KataAnimals\\Test\\": "test/"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "symfony/console": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    }
+}
