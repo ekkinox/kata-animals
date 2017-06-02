@@ -37,6 +37,7 @@ class StubTest extends TestCase
 			['name' => 'bacteria', 'numberOfLegs' => 0],
 			['name' => 'fish', 'numberOfLegs' => 0],
 			['name' => 'cat', 'numberOfLegs' => 4],
+			['name' => 'cat', 'numberOfLegs' => 4],
 			['name' => 'dog', 'numberOfLegs' => 4],
 			['name' => 'horse', 'numberOfLegs' => 4],
 			['name' => 'spider', 'numberOfLegs' => 8],
@@ -63,6 +64,7 @@ class StubTest extends TestCase
     private function generateAnimals(): array
     {
 	    $animalDefinitions = [
+		    ['name' => 'cat', 'numberOfLegs' => 4],
 		    ['name' => 'spider', 'numberOfLegs' => 8],
 		    ['name' => 'fish', 'numberOfLegs' => 0],
 		    ['name' => 'bacteria', 'numberOfLegs' => 0],
