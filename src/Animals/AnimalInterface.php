@@ -7,10 +7,10 @@ namespace Ekkinox\KataAnimals\Animals;
  */
 interface AnimalInterface
 {
-    /**
-     * @return string
-     */
-    public function getName(): string;
+	/**
+	 * @return string
+	 */
+	public function getName(): string;
 
 	/**
 	 * @return int
